@@ -9,7 +9,7 @@ mgr = owm.weather_manager()
 #search for current weather condition in a region
 region = input('Name of region: ')
 
-reg = own.city_id_registry()
+reg = owm.city_id_registry()
 list_of_tuples = london = reg.ids_for(region, matching='like')
 print(list_of_tuples)
 
