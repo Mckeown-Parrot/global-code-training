@@ -7,12 +7,15 @@ ledgreen = LED(27) # 27 stands for the number on the gpio
 
 
 while True:
+    #Redlight
     ledred.on()
     sleep()
     ledred.off()
+    #Yellowlight
     ledyellow.on()
     sleep(5)
     ledyellow.off()
+    #Greenlight
     ledgreen.on()
     sleep(5)
     ledgreen.off()
