@@ -13,6 +13,6 @@ Buzz = GPIO.PWM(BuzzerPin, 440)
 
 while True:
 	Buzz.start(1)
-	sleep(3)
+	sleep(50)
 	Buzz.stop(2)
 	sleep(1)
